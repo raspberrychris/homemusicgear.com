@@ -9,7 +9,7 @@ cascade:
 ---
 
 {{< lead >}}
-Simple, yet powerful. Learn how to use Congo and its features.
+Have you just got some music gear but don’t know what to do with it?  This part of the site is to help beginners get to grips with their music gear.
 {{< /lead >}}
 
 ![Screenshots of Congo on an iPhone, iPad and MacBook](screenshot.png)

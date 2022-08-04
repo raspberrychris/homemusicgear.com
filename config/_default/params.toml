@@ -61,7 +61,7 @@ mainSections = ["samples"]
 
 [fathomAnalytics]
   # site = "ABC12345"
-  # domain = "llama.yoursite.com"
+  # domain = "llama.yoursitffge.com"
 
 [verification]
   # google = ""

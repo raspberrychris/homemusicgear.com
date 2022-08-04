@@ -1,5 +1,5 @@
 ---
-title: "Affiliate Disclosure"
+title: "Beginners Guides"
 description: "Learn how to use Congo and its features."
 
 cascade:

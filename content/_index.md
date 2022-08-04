@@ -1,10 +1,10 @@
 ---
-title: "Welcome to Congo! :tada:"
+title: "Welcome to Home Music Gear! :wave:"
 description: "This is a demo of the Congo theme for Hugo."
 ---
 
 {{< lead >}}
-A powerful, lightweight theme for Hugo built with Tailwind CSS.
+Home Music Gear brings you reviews, guides and tips for getting the most out of your music gear!
 {{< /lead >}}
 
 This is a demo site built entirely using Congo. It also contains a complete set of [theme documentation]({{< ref "docs" >}}). Congo is flexible and is great for both static page-based content (like this demo) or a traditional blog with a feed of recent posts.

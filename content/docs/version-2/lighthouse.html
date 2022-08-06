@@ -1676,6 +1676,7 @@
 
 /*# sourceURL=report-styles.css */
 </style>
+{{ partial pros-cons-schema.html . }}
 </head>
 <body class="lh-root lh-vars">
   <noscript>Lighthouse report requires JavaScript. Please enable.</noscript>
@@ -2817,7 +2818,7 @@ limitations under the License.
     <div class="lh-gauge__label">SEO</div>
   </a>
 
-  
+
 
   <a href="#pwa" class="lh-gauge__wrapper lh-gauge--pwa__wrapper lh-badged--pwa-installable" title="Installable: 1/1, PWA Optimized: 6/8">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" class="lh-gauge lh-gauge--pwa">
@@ -2939,7 +2940,7 @@ limitations under the License.
   </style>
 
   <div class="lh-header-container">
-    
+
   <style>
     .lh-scores-container {
       display: flex;
@@ -3261,7 +3262,7 @@ limitations under the License.
         </summary>
       <div class="lh-audit__description"><span>Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. <a rel="noopener" target="_blank" href="https://web.dev/unused-css-rules/?utm_source=lighthouse&amp;utm_medium=cli">Learn more</a>.</span><span class="lh-audit__adorn" title="Relevant to First Contentful Paint">FCP</span><span class="lh-audit__adorn" title="Relevant to Largest Contentful Paint">LCP</span></div>
       <div class="lh-audit__stackpacks"></div>
-    
+
   <style>
     .lh-3p-filter {
       background-color: var(--table-higlight-background-color);
@@ -3310,8 +3311,8 @@ limitations under the License.
         </summary>
       <div class="lh-audit__description"><span>Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. <a rel="noopener" target="_blank" href="https://web.dev/unused-javascript/?utm_source=lighthouse&amp;utm_medium=cli">Learn more</a>.</span><span class="lh-audit__adorn" title="Relevant to Largest Contentful Paint">LCP</span></div>
       <div class="lh-audit__stackpacks"></div>
-    
-  
+
+
   <div class="lh-3p-filter">
     <label class="lh-3p-filter-label" for="lh-3p-filter-label--1">
       <input type="checkbox" class="lh-3p-filter-input" checked="" id="lh-3p-filter-label--1" disabled="">
@@ -3407,7 +3408,7 @@ limitations under the License.
           </span>
         </div>
       </template>
-    
+
         <div class="crc-node" title="http://localhost:8008/congo/samples/emoji/">
           <span class="crc-node__tree-marker">
 
@@ -3416,7 +3417,7 @@ limitations under the License.
 
           <div class="lh-text__url" title="http://localhost:8008/congo/samples/emoji/" data-url="http://localhost:8008/congo/samples/emoji/"><a rel="noopener" target="_blank" href="http://localhost:8008/congo/samples/emoji/" class="lh-link">…samples/emoji</a><div class="lh-text lh-text__url-host">(localhost)</div></div></span>
         </div>
-      
+
         <div class="crc-node" title="http://localhost:8008/congo/css/main.bundle.min.6783e342ffedbcc698d9afb9ffe11276f4f9de79bfc45cf670b35d5f9948d266086106596bc9e59820d7de0959e5889ce97e073fbafd380be9dc7b33b75295f2.css">
           <span class="crc-node__tree-marker">
 
@@ -3486,8 +3487,8 @@ limitations under the License.
       </summary>
       <div class="lh-audit__description"><span>Lists the longest tasks on the main thread, useful for identifying worst contributors to input delay. <a rel="noopener" target="_blank" href="https://web.dev/long-tasks-devtools/?utm_source=lighthouse&amp;utm_medium=cli">Learn more</a></span><span class="lh-audit__adorn" title="Relevant to Total Blocking Time">TBT</span></div>
       <div class="lh-audit__stackpacks"></div>
-    
-  
+
+
   <div class="lh-3p-filter">
     <label class="lh-3p-filter-label" for="lh-3p-filter-label--2">
       <input type="checkbox" class="lh-3p-filter-input" checked="" id="lh-3p-filter-label--2" disabled="">
@@ -3553,8 +3554,8 @@ Diagrams and Flowcharts
       </summary>
       <div class="lh-audit__description"><span>Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles. <a rel="noopener" target="_blank" href="https://web.dev/render-blocking-resources/?utm_source=lighthouse&amp;utm_medium=cli">Learn more</a>.</span><span class="lh-audit__adorn" title="Relevant to First Contentful Paint">FCP</span><span class="lh-audit__adorn" title="Relevant to Largest Contentful Paint">LCP</span></div>
       <div class="lh-audit__stackpacks"></div>
-    
-  
+
+
   <div class="lh-3p-filter">
     <label class="lh-3p-filter-label" for="lh-3p-filter-label--3">
       <input type="checkbox" class="lh-3p-filter-input" checked="" id="lh-3p-filter-label--3" disabled="">
@@ -3721,8 +3722,8 @@ Diagrams and Flowcharts
       </summary>
       <div class="lh-audit__description"><span>Keep the server response time for the main document short because all other requests depend on it. <a rel="noopener" target="_blank" href="https://web.dev/time-to-first-byte/?utm_source=lighthouse&amp;utm_medium=cli">Learn more</a>.</span><span class="lh-audit__adorn" title="Relevant to First Contentful Paint">FCP</span><span class="lh-audit__adorn" title="Relevant to Largest Contentful Paint">LCP</span></div>
       <div class="lh-audit__stackpacks"></div>
-    
-  
+
+
   <div class="lh-3p-filter">
     <label class="lh-3p-filter-label" for="lh-3p-filter-label--4">
       <input type="checkbox" class="lh-3p-filter-input" checked="" id="lh-3p-filter-label--4" disabled="">
@@ -3849,8 +3850,8 @@ Diagrams and Flowcharts
       </summary>
       <div class="lh-audit__description"><span>Polyfills and transforms enable legacy browsers to use new JavaScript features. However, many aren't necessary for modern browsers. For your bundled JavaScript, adopt a modern script deployment strategy using module/nomodule feature detection to reduce the amount of code shipped to modern browsers, while retaining support for legacy browsers. <a rel="noopener" target="_blank" href="https://philipwalton.com/articles/deploying-es2015-code-in-production-today/">Learn More</a></span><span class="lh-audit__adorn" title="Relevant to Total Blocking Time">TBT</span></div>
       <div class="lh-audit__stackpacks"></div>
-    
-  
+
+
   <div class="lh-3p-filter">
     <label class="lh-3p-filter-label" for="lh-3p-filter-label--5">
       <input type="checkbox" class="lh-3p-filter-input" checked="" id="lh-3p-filter-label--5" disabled="">
@@ -3897,8 +3898,8 @@ Diagrams and Flowcharts
       </summary>
       <div class="lh-audit__description"><span>Large network payloads cost users real money and are highly correlated with long load times. <a rel="noopener" target="_blank" href="https://web.dev/total-byte-weight/?utm_source=lighthouse&amp;utm_medium=cli">Learn more</a>.</span><span class="lh-audit__adorn" title="Relevant to Largest Contentful Paint">LCP</span></div>
       <div class="lh-audit__stackpacks"></div>
-    
-  
+
+
   <div class="lh-3p-filter">
     <label class="lh-3p-filter-label" for="lh-3p-filter-label--6">
       <input type="checkbox" class="lh-3p-filter-input" checked="" id="lh-3p-filter-label--6" disabled="">
@@ -3965,8 +3966,8 @@ Diagrams and Flowcharts
       </summary>
       <div class="lh-audit__description"><span>Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. <a rel="noopener" target="_blank" href="https://web.dev/bootup-time/?utm_source=lighthouse&amp;utm_medium=cli">Learn more</a>.</span><span class="lh-audit__adorn" title="Relevant to Total Blocking Time">TBT</span></div>
       <div class="lh-audit__stackpacks"></div>
-    
-  
+
+
   <div class="lh-3p-filter">
     <label class="lh-3p-filter-label" for="lh-3p-filter-label--7">
       <input type="checkbox" class="lh-3p-filter-input" checked="" id="lh-3p-filter-label--7" disabled="">
@@ -6006,8 +6007,8 @@ Diagrams and Flowcharts
       </summary>
       <div class="lh-audit__description"><span>Font sizes less than 12px are too small to be legible and require mobile visitors to “pinch to zoom” in order to read. Strive to have &gt;60% of page text ≥12px. <a rel="noopener" target="_blank" href="https://web.dev/font-size/?utm_source=lighthouse&amp;utm_medium=cli">Learn more</a>.</span></div>
       <div class="lh-audit__stackpacks"></div>
-    
-  
+
+
   <div class="lh-3p-filter">
     <label class="lh-3p-filter-label" for="lh-3p-filter-label--8">
       <input type="checkbox" class="lh-3p-filter-input" checked="" id="lh-3p-filter-label--8" disabled="">
@@ -6095,7 +6096,7 @@ Diagrams and Flowcharts
   </div></details></div></div><div class="lh-category-wrapper"><div class="lh-category"><span class="lh-permalink" id="pwa"></span>
   <div class="lh-category-header">
     <div class="lh-score__gauge" role="heading" aria-level="2">
-  
+
 
   <a href="#pwa" class="lh-gauge__wrapper lh-gauge--pwa__wrapper lh-badged--pwa-installable" title="Installable: 1/1, PWA Optimized: 6/8">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" class="lh-gauge lh-gauge--pwa">
@@ -6457,52 +6458,52 @@ Diagrams and Flowcharts
             <span class="lh-env__description"></span>
           </li>
         </template>
-      
+
           <li class="lh-env__item">
             <span class="lh-env__name">URL</span>
             <span class="lh-env__description">http://localhost:8008/congo/samples/emoji/</span>
           </li>
-        
+
           <li class="lh-env__item">
             <span class="lh-env__name">Fetch Time</span>
             <span class="lh-env__description">Jan 19, 2022, 7:17 PM GMT+11</span>
           </li>
-        
+
           <li class="lh-env__item">
             <span class="lh-env__name">Device</span>
             <span class="lh-env__description">Emulated Moto G4</span>
           </li>
-        
+
           <li class="lh-env__item">
             <span class="lh-env__name">Network throttling</span>
             <span class="lh-env__description">150&nbsp;ms TCP RTT, 1,638.4&nbsp;Kbps throughput (Simulated)</span>
           </li>
-        
+
           <li class="lh-env__item">
             <span class="lh-env__name">CPU throttling</span>
             <span class="lh-env__description">4x slowdown (Simulated)</span>
           </li>
-        
+
           <li class="lh-env__item">
             <span class="lh-env__name">Channel</span>
             <span class="lh-env__description">cli</span>
           </li>
-        
+
           <li class="lh-env__item">
             <span class="lh-env__name">User agent (host)</span>
             <span class="lh-env__description">Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/96.0.4664.110 Safari/537.36</span>
           </li>
-        
+
           <li class="lh-env__item">
             <span class="lh-env__name">User agent (network)</span>
             <span class="lh-env__description">Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4420.0 Mobile Safari/537.36 Chrome-Lighthouse</span>
           </li>
-        
+
           <li class="lh-env__item">
             <span class="lh-env__name">CPU/Memory Power</span>
             <span class="lh-env__description">1949</span>
           </li>
-        
+
           <li class="lh-env__item">
             <span class="lh-env__name">Axe version</span>
             <span class="lh-env__description">4.2.1</span>
